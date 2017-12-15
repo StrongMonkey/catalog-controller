@@ -3,7 +3,6 @@ package parse
 import (
 	"github.com/rancher/catalog-controller/utils"
 	"github.com/rancher/types/apis/management.cattle.io/v3"
-	"gopkg.in/yaml.v2"
 )
 
 func TemplateInfo(contents []byte) (v3.Template, error) {

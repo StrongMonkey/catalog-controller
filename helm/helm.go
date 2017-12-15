@@ -12,7 +12,6 @@ import (
 	"path"
 
 	"github.com/rancher/types/apis/management.cattle.io/v3"
-	"gopkg.in/yaml.v2"
 )
 
 func DownloadIndex(indexURL string) (*RepoIndex, error) {

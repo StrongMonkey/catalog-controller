@@ -1,9 +1,6 @@
 package utils
 
-import (
-	"github.com/sirupsen/logrus"
-	"gopkg.in/yaml.v2"
-)
+import "github.com/sirupsen/logrus"
 
 // Config holds libcompose top level configuration
 type Config struct {
